@@ -1,0 +1,314 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 2em 2em 0 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  width: 150px;
+}
+header .navigation {
+  display: none;
+}
+header .bars i {
+  font-size: 24px;
+  color: gray;
+}
+
+main .home-page {
+  padding: 0 2em 0 2em;
+  max-width: 300px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+main .home-page h4 {
+  text-transform: uppercase;
+  color: #ff3998;
+}
+main .home-page h1 {
+  margin-top: 0;
+  font-size: 45px;
+  font-weight: 900;
+}
+main .home-page p {
+  color: #555555;
+  word-spacing: 0.2em;
+  line-height: 25px;
+}
+main .home-page .sign-up-btn {
+  background: linear-gradient(white, white) padding-box, url("/assets/background.svg") border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  padding: 0.9rem 2.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+main .home-page .sign-up-btn button {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+main .home-page img {
+  position: absolute;
+  width: 400px;
+  left: 13em;
+  top: 5em;
+}
+main .free-nft {
+  background-image: url("/assets/background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5em 2em 0.5em 2em;
+}
+main .free-nft h2 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 400;
+}
+main .free-nft p {
+  padding-right: 3em;
+  word-spacing: 0.2em;
+  line-height: 25px;
+}
+main .le-auction {
+  padding: 3em 2em 3em 2em;
+  border-bottom: 2px solid whitesmoke;
+}
+main .le-auction .companies {
+  display: flex;
+  align-items: center;
+}
+main .le-auction .first-col img, main .le-auction .second-col img {
+  width: 8.5rem;
+  height: 3rem;
+}
+main .le-auction h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+main .le-auction p {
+  margin-top: 0.5em;
+  color: #555555;
+  word-spacing: 0.2em;
+  line-height: 25px;
+}
+main .le-auction p a {
+  color: #424242;
+}
+main .le-auction .nft-card {
+  margin-top: 1.5em;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+main .le-auction .nft-card .nft-flex {
+  background-color: whitesmoke;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .le-auction .nft-card .nft-flex p {
+  margin: 0.5em 0;
+  font-size: 14px;
+}
+main .le-auction .nft-card .nft-flex h5 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+main .le-auction .nft-card .nft-flex div {
+  padding-left: 1em;
+}
+main .le-auction .nft-card .nft-flex .text-right {
+  padding-right: 1em;
+  text-align: right;
+}
+main .le-auction .nft-card .nft-flex .text-right .label {
+  color: #555555;
+}
+main .le-auction .nft-card .nft-flex .text-right h5::before {
+  content: url("/assets/eth.svg");
+  padding-right: 5px;
+}
+main .le-auction .nft-card .nft-flex .label {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ff8139;
+  margin: 1em 0 0.5em 0;
+}
+main .second-home {
+  margin: 0;
+  padding: 0 2em 0 2em;
+  max-width: 200px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+main .second-home h4 {
+  text-transform: uppercase;
+  color: #ff3998;
+}
+main .second-home h1 {
+  margin-top: 0;
+  font-size: 45px;
+  font-weight: 900;
+}
+main .second-home p {
+  color: #555555;
+  word-spacing: 0.2em;
+  line-height: 25px;
+  padding-right: 1.5em;
+}
+main .second-home .sign-up-btn {
+  background: linear-gradient(white, white) padding-box, url("/assets/background.svg") border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  padding: 0.9rem 2.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+main .second-home .sign-up-btn button {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+main .second-home img {
+  position: absolute;
+  width: 170px;
+  bottom: -77em;
+  left: 14em;
+}
+
+footer {
+  border-top: 2px solid whitesmoke;
+  padding: 3em 2em 3em 2em;
+}
+footer img {
+  width: 200px;
+}
+footer p {
+  margin: 0;
+  padding-bottom: 1em;
+  color: #555555;
+}
+footer .socials i {
+  color: #999999;
+  padding-right: 0.5em;
+}
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .links div {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+footer .links div h6 {
+  margin: 3em 0 0.9em 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+footer .links div a {
+  padding-top: 0.5em;
+  text-decoration: none;
+  color: #555555;
+}
+footer p {
+  padding-top: 3em;
+  color: #555555;
+}
+
+@media screen and (min-width: 1024px) {
+  header .navigation {
+    display: inline-block;
+  }
+  header .navigation a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #555555;
+    cursor: pointer;
+  }
+  header .navigation a:last-child {
+    color: #ff3998;
+  }
+  header .bars {
+    display: none;
+  }
+  main .home-page {
+    margin: 4em 0;
+    max-width: 500px;
+  }
+  main .home-page h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  main .home-page .sign-up-btn {
+    margin-top: 0;
+  }
+  main .home-page img {
+    width: 500px;
+    left: 35rem;
+    top: 10em;
+  }
+  main .free-nft {
+    margin: 3em 2em;
+    padding: 6em 2em 1em 2em;
+    border-radius: 10px;
+  }
+  main .le-auction .companies {
+    justify-content: center;
+  }
+  main .le-auction .nft-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .le-auction .nft-card-container .nft-card {
+    width: 220px;
+  }
+  main .le-auction .nft-card-container .nft-card .nft-flex h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  main .second-home {
+    max-width: 50vw;
+  }
+  main .second-home img {
+    left: 45em;
+    bottom: -69.5em;
+  }
+  footer .footer-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container p {
+    padding-top: 1em;
+  }
+  footer .links {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  footer .links div h6 {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
